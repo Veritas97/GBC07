@@ -1,4 +1,4 @@
-﻿int[,] CreateMatrixRandomInt(int SizeX, int SizeY, int min, int max)
+﻿int[,] CreateMatrixInt(int SizeX, int SizeY)
 {
     int[,] matrix = new int[SizeX, SizeY];
     // Random random = new Random();
@@ -31,5 +31,5 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] array2D = CreateMatrixRandomInt(3, 4, -50, 50);
+int[,] array2D = CreateMatrixInt(3, 4);
 PrintMatrix(array2D);
